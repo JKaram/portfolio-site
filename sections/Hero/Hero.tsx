@@ -11,7 +11,7 @@ export default function Hero(props: any) {
     <div className="p-4">
       <h1 className="font-nunito font-bold text-4xl my-8">Hi, Im Jamie 👋</h1>
       <p className=" text-2xl leading-relaxed">
-        I&apos;m currently a full stack developer at Safetrack.ai. Located in Ottawa, Canada 🇨🇦 .Thank you for checking
+        I&apos;m currently a full stack developer at Safetrack.ai. Located in Ottawa, Canada 🇨🇦. Thank you for checking
         out my site, It&apos;s still a work in progress (
         <span className="underline cursor-pointer hover:text-indigo-900">
           <a href="https://github.com/JKaram/portfolio-site" rel="noreferrer" target="_blank">

@@ -11,7 +11,7 @@ export default function Nav() {
           href="https://www.dropbox.com/s/rv0v7suxul38riu/Jamie_Karam_Resume.pdf?dl=0"
           target="_blank"
           rel="noreferrer"
-          className="underline cursor-pointer hover:text-indigo-900"
+          className="text-lg underline cursor-pointer hover:text-indigo-900"
         >
           Resume
         </a>
@@ -29,7 +29,7 @@ export default function Nav() {
           href="https://github.com/JKaram"
           target="_blank"
           rel="noreferrer"
-          className="underline cursor-pointer hover:text-indigo-900"
+          className="text-lg underline cursor-pointer hover:text-indigo-900"
         >
           GitHub
           {/* <Image src={github} alt="github" /> */}
