@@ -1,3 +1,4 @@
+const colors = require('tailwindcss/colors')
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
@@ -16,9 +17,10 @@ module.exports = {
       black: {
         DEFAULT: "#303030"
       },
-      red: {
-        DEFAULT: "#fff"
-      }
+      white: colors.white,
+      indigo: colors.indigo,
+      red: colors.rose,
+      yellow: colors.amber,
 
     },
     extend: {
