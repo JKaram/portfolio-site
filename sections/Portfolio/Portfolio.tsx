@@ -14,6 +14,7 @@ export default function Portfolio() {
           badges={elem.technologies}
           img={elem.img}
           color={elem.color}
+          date={elem.date}
         />
       ))}
     </div>
