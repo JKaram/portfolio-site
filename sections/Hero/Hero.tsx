@@ -9,8 +9,8 @@ export default function Hero(props: any) {
   });
   return (
     <div className="p-4">
-      <h1 className="font-nunito font-bold text-4xl my-8">Hi, Im Jamie 👋</h1>
-      <p style={{ lineHeight: "2.8rem" }} className="text-2xl md:text-3xl leading-loose">
+      <h1 className="font-nunito font-bold text-4xl my-8">Hi, I&apos;m Jamie 👋</h1>
+      <p className="text-2xl md:leading-10 md:text-3xl">
         I&apos;m currently a full stack developer at Safetrack.ai. Located in Ottawa, Canada 🇨🇦. Thank you for checking
         out my site, It&apos;s still a work in progress (
         <span className="underline cursor-pointer hover:text-indigo-900">
@@ -20,13 +20,13 @@ export default function Hero(props: any) {
         </span>
         ).
       </p>
-      <p style={{ lineHeight: "2.8rem" }} className="text-2xl md:text-3xl mt-4 leading-relaxed">
-        I mainly work on front-end development. I love <Span color={badgeColours["JavaScript"]}>JavaScript</Span>,
+      <p className="text-2xl md:text-3xl md:leading-10 mt-4">
+        I work on front-end development. I love <Span color={badgeColours["JavaScript"]}>JavaScript</Span>,
         <Span color={badgeColours["TypeScript"]}>TypeScript</Span>, and <Span color="#61DAFB">React</Span>. I am also
         interested in Data Visualization and Data Science. In my past life, I worked in Television as a Camera Operator.
         In my spare time, I work on side projects, exercise and photography 📷.
       </p>
-      <p style={{ lineHeight: "2.8rem" }} className="text-2xl md:text-3xl mt-4 leading-relaxed">
+      <p className="text-2xl md:text-3xl md:leading-10 mt-4">
         Please reach out me on{" "}
         <a
           className="underline cursor-pointer hover:text-indigo-900"

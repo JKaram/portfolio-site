@@ -4,8 +4,8 @@ import { portfolioProjects } from "./constants";
 
 export default function Portfolio() {
   return (
-    <div className="p-4">
-      <h2 className="font-nunito text-center font-bold text-2xl mb-8">Projects</h2>
+    <div className="px-4 lg:p-0">
+      <h2 className="font-nunito text-center font-bold text-3xl my-8">Projects</h2>
       {portfolioProjects.map((elem) => (
         <ProjectCard
           key={elem.title}
