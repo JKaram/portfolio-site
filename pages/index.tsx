@@ -11,7 +11,7 @@ const Home: NextPage = (props: any) => {
     <div>
       <Head>
         <title>Jamie Karam</title>
-        <meta name="description" content="Jamie Karam Porfolio Site" />
+        <meta name="description" content="Jamie Karam Web Developer Porfolio Site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
