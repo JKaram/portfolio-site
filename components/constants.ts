@@ -1,4 +1,7 @@
-export const badgeColours: any = {
+interface Props {
+  [key: string]: string;
+}
+export const badgeColours: Props = {
   "styled components": "#644458",
   React: "#282C34",
   tailwindcss: "#19BBE6",
@@ -6,4 +9,6 @@ export const badgeColours: any = {
   "Next.js": "#111111",
   TypeScript: "#2F74C0",
   JavaScript: "#EFD81D",
+  Selenium: "#01B400",
+  Python: "#306998",
 };

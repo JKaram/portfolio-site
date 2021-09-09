@@ -1,6 +1,7 @@
 import howoldwerethey from "../../public/Portfolio/howoldwerethey.png";
 import beveragegenetics from "../../public/Portfolio/beveragegenetics.png";
-import site from "../../public/Portfolio/site.png";
+import instagram from "../../public/Portfolio/instagram.jpg";
+import site from "../../public/Portfolio/site.jpg";
 
 export const portfolioProjects = [
   {
@@ -20,6 +21,15 @@ export const portfolioProjects = [
       "Beverage Genetics reccomends coffee flavor's based on a customers flavour profile. I designed and developed an easy to use survey that can be modified easily by the owner.",
     technologies: ["React", "tailwindcss", "Redux", "Next.js", "TypeScript"],
     date: new Date(2021, 6),
+  },
+  {
+    title: "Instagram Scraper",
+    img: instagram,
+    color: "#5851db",
+    description:
+      'Scrape "likes" and other pertinent information. Create a model with the data and calculate the optimal time to post on Instagram and maximize likes.',
+    technologies: ["Python", "Selenium", "Beautiful Soup"],
+    date: new Date(2020, 11),
   },
   {
     title: "How Old Were They?",
