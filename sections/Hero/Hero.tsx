@@ -21,7 +21,7 @@ export default function Hero(props: any) {
         ).
       </p>
       <p className="text-2xl md:text-3xl md:leading-10 mt-4">
-        I work on front-end development. I love <Span color={badgeColours["JavaScript"]}>JavaScript</Span>,
+        I focus on front-end development. I love <Span color={badgeColours["JavaScript"]}>JavaScript</Span>,
         <Span color={badgeColours["TypeScript"]}>TypeScript</Span>, and <Span color="#61DAFB">React</Span>. I am also
         interested in Data Visualization and Data Science. In my past life, I worked in Television as a Camera Operator.
         In my spare time, I work on side projects, exercise and photography 📷.

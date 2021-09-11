@@ -15,6 +15,7 @@ export default function Portfolio() {
           img={elem.img}
           color={elem.color}
           date={elem.date}
+          link={elem.link}
         />
       ))}
     </div>

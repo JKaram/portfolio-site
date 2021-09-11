@@ -7,6 +7,7 @@ export const portfolioProjects = [
   {
     title: "My New Site",
     color: "#303030",
+    link: "https://github.com/JKaram/portfolio-site",
     img: site,
     description:
       "Version 2 of my personal website. This was a great oppertunity to further develop my UI and Figma expierince. I will eventually add a blog section (when I have time to actually write some)",
@@ -16,6 +17,7 @@ export const portfolioProjects = [
   {
     title: "Beverage Genetics Flavour Profile",
     img: beveragegenetics,
+    link: "https://coffee-survey.netlify.app/",
     color: "#f59e0b",
     description:
       "Beverage Genetics reccomends coffee flavor's based on a customers flavour profile. I designed and developed an easy to use survey that can be modified easily by the owner.",
@@ -26,6 +28,7 @@ export const portfolioProjects = [
     title: "Instagram Scraper",
     img: instagram,
     color: "#5851db",
+    link: "https://github.com/JKaram/instagram-data",
     description:
       'Scrape "likes" and other pertinent information. Create a model with the data and calculate the optimal time to post on Instagram and maximize likes.',
     technologies: ["Python", "Selenium", "Beautiful Soup"],
@@ -34,6 +37,7 @@ export const portfolioProjects = [
   {
     title: "How Old Were They?",
     img: howoldwerethey,
+    link: "https://howoldwerethey.netlify.app/",
     color: "#383a59",
     description:
       "Find out the age of an actor during the making of a movie they are in. This was my first project outside of Bootcamp. I am definetly going to revisit and add more features.",
