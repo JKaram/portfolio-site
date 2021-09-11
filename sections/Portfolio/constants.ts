@@ -37,7 +37,7 @@ export const portfolioProjects = [
   {
     title: "How Old Were They?",
     img: howoldwerethey,
-    link: "https://howoldwerethey.netlify.app/",
+    link: "https://howoldwerethey.jamiekaram.dev/",
     color: "#383a59",
     description:
       "Find out the age of an actor during the making of a movie they are in. This was my first project outside of Bootcamp. I am definetly going to revisit and add more features.",
