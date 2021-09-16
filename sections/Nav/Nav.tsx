@@ -8,7 +8,7 @@ export default function Nav() {
       <h1 className="font-nunito font-bold text-3xl text-center">JAMIE KARAM</h1>
       <div className="flex justify-center l space-x-3 mt-3">
         <a
-          href="https://www.dropbox.com/s/rv0v7suxul38riu/Jamie_Karam_Resume.pdf?dl=0"
+          href="https://www.dropbox.com/s/q1oe2q7kaymqit6/Jamie_Karam_Resume.pdf?dl=0"
           target="_blank"
           rel="noreferrer"
           className="text-2xl underline cursor-pointer hover:text-indigo-900"

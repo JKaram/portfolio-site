@@ -37,7 +37,7 @@ export default function Hero(props: any) {
         </a>
         , or{" "}
         <a className="underline cursor-pointer hover:text-indigo-900" href="mailto:jamiekaram16@gmail.com">
-          jamiekaram16@gmail.com
+          hello@jamiekaram.dev
         </a>
         .
       </p>
