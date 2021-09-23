@@ -11,4 +11,6 @@ export const badgeColours: Props = {
   JavaScript: "#EFD81D",
   Selenium: "#01B400",
   Python: "#306998",
+  "React Query": "#FF4154",
+  "NASA API": "#0B3D91",
 };

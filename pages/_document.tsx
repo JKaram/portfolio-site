@@ -18,7 +18,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="font-roboto m-auto lg:w-1/2  ">
+        <body className="font-roboto m-auto w-full lg:max-w-5xl">
           <Main />
           <NextScript />
         </body>

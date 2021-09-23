@@ -1,18 +1,29 @@
 import howoldwerethey from "../../public/Portfolio/howoldwerethey.png";
 import beveragegenetics from "../../public/Portfolio/beveragegenetics.png";
 import instagram from "../../public/Portfolio/instagram.jpg";
+import solaroid from "../../public/Portfolio/solaroid.png";
 import site from "../../public/Portfolio/site.jpg";
 
 export const portfolioProjects = [
   {
-    title: "My New Site",
+    title: "Solaroid",
+    color: "#2C113A",
+    link: "https://solaroid.jamiekaram.dev/",
+    img: solaroid,
+    description:
+      '"Instagramish" photo sharing site using the NASA API. Implemented an infinite scrolling feature. A user can like, and share photos.',
+    technologies: ["React", "tailwindcss", "React Query", "NASA API"],
+    date: new Date(2021, 8),
+  },
+  {
+    title: "jamiekaram.dev",
     color: "#303030",
     link: "https://github.com/JKaram/portfolio-site",
     img: site,
     description:
       "Version 2 of my personal website. This was a great oppertunity to further develop my UI and Figma expierince. I will eventually add a blog section (when I have time to actually write some)",
     technologies: ["React", "Next.js", "tailwindcss"],
-    date: new Date(),
+    date: new Date(2021, 8),
   },
   {
     title: "Beverage Genetics Flavour Profile",
