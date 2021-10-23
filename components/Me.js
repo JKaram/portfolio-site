@@ -57,6 +57,20 @@ export default function MeModel({ ...props }) {
         rotation={[0, -1.54, 0]}
         scale={-0.16}
       />
+      <mesh
+        geometry={nodes.Sphere002.geometry}
+        material={materials['Eyes.001']}
+        position={[-0.25, 0.5, 0.16]}
+        rotation={[0, -1.54, 0]}
+        scale={[-0.06, -0.07, -0.06]}
+      />
+      <mesh
+        geometry={nodes.Cylinder001.geometry}
+        material={materials['skin.001']}
+        position={[-0.79, 0.38, -0.26]}
+        rotation={[1.48, -1.24, -0.07]}
+        scale={[0.15, 0.03, 0.12]}
+      />
     </group>
   )
 }

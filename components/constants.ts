@@ -13,4 +13,6 @@ export const badgeColours: Props = {
   Python: "#306998",
   "React Query": "#FF4154",
   "NASA API": "#0B3D91",
+  "three.js": "#049EF4",
+  "React Three Fiber": "#000",
 };
