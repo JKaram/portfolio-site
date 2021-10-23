@@ -17,6 +17,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Roboto:wght@100;400;700&display=swap"
             rel="stylesheet"
           />
+          <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet" />
         </Head>
         <body className="font-roboto m-auto w-full lg:max-w-5xl">
           <Main />

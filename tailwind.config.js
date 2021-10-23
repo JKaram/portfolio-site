@@ -6,7 +6,8 @@ module.exports = {
     fontFamily: {
       'body': ['Roboto'],
       'roboto': ['Roboto'],
-      'nunito': ['Nunito']
+      'nunito': ['Nunito'],
+      'amatic': ['Amatic SC']
     },
     colors: {
       transparent: 'transparent',
