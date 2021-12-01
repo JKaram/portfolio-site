@@ -6,7 +6,7 @@ export default function Portfolio() {
   return (
     <div className="px-4 lg:p-0">
       <h2 className="font-nunito text-center font-bold text-3xl my-8">Projects</h2>
-      <ThreeJSProjectCard
+      {/* <ThreeJSProjectCard
         title={"three.js"}
         desc={"Learning ThreeJS, and how to model (poorly) using blender."}
         badges={["three.js", "React Three Fiber"]}
@@ -14,7 +14,7 @@ export default function Portfolio() {
         color={"#2C6A6D"}
         date={new Date(2021, 9)}
         link={portfolioProjects[0].link}
-      />
+      /> */}
       {portfolioProjects.map((elem) => (
         <ProjectCard
           key={elem.title}
