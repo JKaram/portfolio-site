@@ -19,14 +19,17 @@ export default function Hero() {
       <p className="mt-4 text-2xl md:text-3xl md:leading-10">
         Please reach out me on{" "}
         <a
-          className="underline cursor-pointer hover:text-indigo-900"
+          className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
           href="https://www.linkedin.com/in/jamiekaram/"
           target="_black"
         >
           LinkedIn
         </a>
         , or{" "}
-        <a className="underline cursor-pointer hover:text-indigo-900" href="mailto:hello@jamiekaram.dev">
+        <a
+          className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
+          href="mailto:hello@jamiekaram.dev"
+        >
           hello@jamiekaram.dev
         </a>
         .
