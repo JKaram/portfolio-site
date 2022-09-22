@@ -1,7 +1,7 @@
 const colors = require('tailwindcss/colors')
 module.exports = {
   // purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './sections/**/ *.{ js, ts, jsx, tsx }'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: {
       'body': ['Roboto'],
@@ -18,11 +18,10 @@ module.exports = {
       black: {
         DEFAULT: "#303030"
       },
-      white: colors.white,
-      indigo: colors.indigo,
-      red: colors.rose,
-      yellow: colors.amber,
-
+      typescript: {
+        DEFAULT: "#2f74c0"
+      },
+      ...colors
     },
 
   },

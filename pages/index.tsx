@@ -23,7 +23,6 @@ const Home: NextPage = (props: any) => {
 
 export async function getStaticProps() {
   const github = await getGithubRepo();
-
   return {
     props: {
       github,

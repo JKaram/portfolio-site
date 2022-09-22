@@ -1,12 +1,13 @@
 import React from "react";
 import github from "../../public/logos/github.svg";
 import Image from "next/image";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Nav() {
   return (
-    <div className="md:flex md:justify-between md:items-center p-4">
-      <h1 className="font-nunito font-bold text-3xl text-center">JAMIE KARAM</h1>
-      <div className="flex justify-center l space-x-3 mt-3">
+    <div className="p-4 md:flex md:justify-between md:items-center">
+      <h1 className="text-3xl font-bold text-center font-nunito">JAMIE KARAM</h1>
+      <div className="flex justify-center mt-3 space-x-3 l">
         <a
           href="https://www.dropbox.com/s/ikcux17zayn0n8z/Jamie_Karam_Resume.pdf?dl=0"
           target="_blank"
@@ -24,6 +25,7 @@ export default function Nav() {
         >
           GitHub
         </a>
+        <ThemeToggle />
       </div>
     </div>
   );

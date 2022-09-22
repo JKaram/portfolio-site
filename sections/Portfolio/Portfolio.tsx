@@ -1,20 +1,11 @@
 import React from "react";
-import ProjectCard, { ThreeJSProjectCard } from "./ProjectCard";
+import ProjectCard from "./ProjectCard";
 import { portfolioProjects } from "./constants";
 
 export default function Portfolio() {
   return (
     <div className="px-4 lg:p-0">
-      <h2 className="font-nunito text-center font-bold text-3xl my-8">Projects</h2>
-      {/* <ThreeJSProjectCard
-        title={"three.js"}
-        desc={"Learning ThreeJS, and how to model (poorly) using blender."}
-        badges={["three.js", "React Three Fiber"]}
-        img={portfolioProjects[0].img}
-        color={"#2C6A6D"}
-        date={new Date(2021, 9)}
-        link={portfolioProjects[0].link}
-      /> */}
+      <h2 className="my-8 text-3xl font-bold text-center font-nunito">Projects</h2>
       {portfolioProjects.map((elem) => (
         <ProjectCard
           key={elem.title}
