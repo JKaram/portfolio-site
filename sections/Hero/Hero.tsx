@@ -1,24 +1,14 @@
 import React from "react";
-import formatDistance from "date-fns/formatDistance";
 import Span from "./Span";
 import { badgeColours } from "../../components/constants";
-export default function Hero(props: any) {
-  const { github } = props;
-  const formatedDate = formatDistance(new Date(github), new Date(), {
-    addSuffix: true,
-  });
+
+export default function Hero() {
   return (
     <div className="p-4">
       <h1 className="my-8 text-4xl font-bold font-nunito">Hi, I&apos;m Jamie 👋</h1>
       <p className="text-2xl md:leading-10 md:text-3xl">
-        I&apos;m currently a JavaScript Developer at SHOEBOX Ltd. Located in Ottawa, Canada 🇨🇦. Thank you for checking
-        out my site, It&apos;s still a work in progress (
-        <span className="underline cursor-pointer hover:text-indigo-900">
-          <a href="https://github.com/JKaram/portfolio-site" rel="noreferrer" target="_blank">
-            last updated {formatedDate}
-          </a>
-        </span>
-        ).
+        I&apos;m currently looking for new oppertunities. Located in Ottawa, Canada 🇨🇦. Thank you for checking out my
+        site. I post small projects and anything I find interesting.
       </p>
       <p className="mt-4 text-2xl md:text-3xl md:leading-10">
         I focus on front-end development. I love <Span color={badgeColours["JavaScript"]}>JavaScript</Span>,&nbsp;

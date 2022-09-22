@@ -1,7 +1,6 @@
 import React from "react";
-import github from "../../public/logos/github.svg";
-import Image from "next/image";
 import ThemeToggle from "./ThemeToggle";
+import dynamic from "next/dynamic";
 
 export default function Nav() {
   return (
