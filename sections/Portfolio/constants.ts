@@ -11,7 +11,7 @@ export const portfolioProjects = [
     link: "https://solaroid.jamiekaram.dev/",
     img: solaroid,
     description:
-      '"Instagramish" photo sharing site using the NASA API. Implemented an infinite scrolling feature. A user can like, and share photos.',
+      'Solaroid is an "Instagramish" photo sharing site using the NASA API. Built over a weekend for a code competition. Implemented an infinite scrolling feature, which dynamically loads more photos once you scoll to the bottom of the page. A user can like, and share photos.',
     technologies: ["React", "tailwindcss", "React Query", "NASA API"],
     date: new Date(2021, 8),
   },
@@ -21,7 +21,7 @@ export const portfolioProjects = [
     link: "https://github.com/JKaram/portfolio-site",
     img: site,
     description:
-      "Version 2 of my personal website. This was a great oppertunity to further develop my UI and Figma expierince. I will eventually add a blog section (when I have time to actually write some)",
+      "Version 2 of my personal website. This was a great oppertunity to further develop my UI and Figma expierince.",
     technologies: ["React", "Next.js", "tailwindcss"],
     date: new Date(2021, 8),
   },
@@ -31,7 +31,7 @@ export const portfolioProjects = [
     link: "https://coffee-survey.netlify.app/",
     color: "#f59e0b",
     description:
-      "Beverage Genetics reccomends coffee flavor's based on a customers flavour profile. I designed and developed an easy to use survey that can be modified easily by the owner.",
+      "Beverage Genetics recommends coffee flavor's based on a customers flavour profile. I designed and developed an easy to use survey that can be modified easily by the owner.",
     technologies: ["React", "tailwindcss", "Redux", "Next.js", "TypeScript"],
     date: new Date(2021, 6),
   },
