@@ -1,6 +1,5 @@
 import React from "react";
 import ThemeToggle from "./ThemeToggle";
-import dynamic from "next/dynamic";
 
 export default function Nav() {
   return (
