@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "name": "Jamie Karam",
+    "resume": "Resume",
+    "github": "GitHub"
+  },
+  "hero": {
+    "hi": "Hi, I'm Jamie 👋",
+    "description": [
+      "I'm currently looking for new opportunities. Located in Ottawa, Canada. Thank you for checking out my site. This is where I post side projects.",
+      "I focus on front-end development. I love <0>JavaScript</0>, <1>TypeScript</1>, and <2>React</2>. I am also interested in Data Visualization and Data Science. In my past life, I worked in television as a camera operator. In my spare time I work on projects, run, swim and photography.",
+      "Please reach out me on <0>LinkedIn</0>, or <0>hello@jamiekaram.dev</0>."
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "soloroid": {
+      "title": "Soloroid",
+      "description": "Solaroid is an 'Instagramish' photo sharing site using the NASA API. Built over a weekend for a code competition. Implemented an infinite scrolling feature, which dynamically loads more photos once you scoll to the bottom of the page. A user can like, and share photos."
+    },
+    "jamiekaram.dev": {
+      "title": "jamiekaram.dev",
+      "description": "Version 2 of my personal website. This was a great oppertunity to further develop my UI and Figma expierince."
+    },
+    "beverage-genetics-coffee-matcher": {
+      "title": "Beverage Genetics Flavour Profile",
+      "description": "Beverage Genetics recommends coffee flavor's based on a customers flavour profile. I designed and developed an easy to use survey that can be modified easily by the owner."
+    },
+    "instagram-scraper": {
+      "title": "Instagram Scraper",
+      "description": "Scrape 'likes' and other pertinent information. Create a model with the data and calculate the optimal time to post on Instagram and maximize likes."
+    },
+    "how-old-were-they": {
+      "title": "How Old Were They?",
+      "description": "Find out the age of an actor during the making of a movie they are in. This was my first project outside of Bootcamp. I am definetly going to revisit and add more features."
+    }
+  }
+}

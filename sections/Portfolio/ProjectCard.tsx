@@ -1,10 +1,13 @@
 import React from "react";
 import Badge from "./Badge";
 import format from "date-fns/format";
+import { fr, enCA } from "date-fns/locale";
+import { useRouter } from "next/dist/client/router";
 
 export default function ProjectCard(props: any) {
   const { title, desc, img, badges, color, date, link } = props;
-  const formatedDate = format(date, "MMMM y");
+  const { locale } = useRouter();
+  const formatedDate = format(date, "MMMM y", { locale: locale === "fr" ? fr : enCA });
   return (
     <div
       style={{ background: color }}
