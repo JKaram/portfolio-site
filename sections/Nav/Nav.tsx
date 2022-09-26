@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "next-i18next";
 import ThemeToggle from "./ThemeToggle";
+import LanguageSelector from "./LanguageSelector";
 
 export default function Nav() {
   const { t } = useTranslation();
@@ -27,6 +28,7 @@ export default function Nav() {
           GitHub
         </a>
         <ThemeToggle />
+        <LanguageSelector />
       </div>
     </div>
   );
