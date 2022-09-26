@@ -13,7 +13,9 @@ const languages = [
 
 function LanguageSelector() {
   const router = useRouter();
-  const [selected, setSelected] = useState(() => languages.find((language) => language.code === router.locale));
+  const [selected, setSelected] = useState(() =>
+    languages.find((language) => language.code === router.locale || language[0])
+  );
 
   const changeLanguage = (newLanguage) => {
     setSelected(newLanguage);
@@ -24,7 +26,7 @@ function LanguageSelector() {
     <Listbox value={selected} onChange={changeLanguage}>
       {({ open }) => (
         <>
-          <div className="relative m-auto text-xl dark:text-white">
+          <div className="relative hidden m-auto text-xl md:block dark:text-white">
             <Listbox.Button className="relative w-full px-3 py-2 text-left rounded-md cursor-default focus:border-red-100 focus:outline-none focus:ring-1 focus:ring-indigo-900 dark:focus:ring-red-100 sm:text-sm">
               <span className="flex items-center w-24">
                 <Image src={selected.img} layout="fixed" alt="flag" width={25} height={20} />
@@ -53,7 +55,7 @@ function LanguageSelector() {
                       }
                       value={language}
                     >
-                      {({ selected, active }) => (
+                      {({ selected }) => (
                         <span className={classNames("flex items-center w-24")}>
                           <Image src={language.img} layout="fixed" alt="flag" width={25} height={20} />
                           <span
