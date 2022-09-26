@@ -29,20 +29,33 @@ export default function Hero() {
           and photography.
         </Trans>
       </p>
-
       <p className="mt-4 text-2xl md:text-3xl md:leading-10">
         <Trans
           i18nKey="hero.description.2"
           components={[
             <a
               key="1"
+              href="https://www.dropbox.com/s/vkkblcxjhkn7x5g/Jamie_Karam_Resume.pdf?dl=0"
+              target="_blank"
+              rel="noreferrer"
+              className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
+            />,
+            <a
+              key="2"
+              href="https://github.com/JKaram"
+              target="_blank"
+              rel="noreferrer"
+              className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
+            />,
+            <a
+              key="3"
               className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
               href="https://www.linkedin.com/in/jamiekaram/"
               rel="noreferrer"
               target="_blank"
             />,
             <a
-              key="2"
+              key="4"
               className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
               href="mailto:hello@jamiekaram.dev"
               rel="noreferrer"
@@ -50,7 +63,8 @@ export default function Hero() {
             />,
           ]}
         >
-          Please reach out me on <a>LinkedIn</a>, or <a>hello@jamiekaram.dev</a>.
+          Please checkout my <a>Resume</a> and <a>GitHub</a>. You can reach out on <a>LinkedIn</a> or{" "}
+          <a>hello@jamiekaram.dev</a>.
         </Trans>
       </p>
     </section>
