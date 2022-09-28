@@ -7,30 +7,30 @@
   "hero": {
     "hi": "Hi, I'm Jamie 👋",
     "description": [
-      "I'm currently looking for new opportunities. Located in Ottawa, Canada. Thank you for checking out my site. This is where I post side projects.",
+      "I'm currently looking for new opportunities. Located in Ottawa, Ontario, Canada. Thank you for checking out my site. This is where I post side projects.",
       "I focus on front-end development. I love <0>JavaScript</0>, <1>TypeScript</1>, and <2>React</2>. I am also interested in Data Visualization and Data Science. In my past life, I worked in television as a camera operator. In my spare time I work on projects, run, swim and photography.",
-      "Please checkout my <0>resume</0> and <1>GitHub</1>. You can reach out on <2>LinkedIn</2> or <3>hello@jamiekaram.dev</3>."
+      "You can reach me at <0>hello@jamiekaram.dev</0>."
     ]
   },
   "projects": {
     "title": "Projects",
     "soloroid": {
-      "title": "Soloroid",
-      "description": "Solaroid is an 'Instagramish' photo sharing site using the NASA API. Built over a weekend for a code competition. Implemented an infinite scrolling feature, which dynamically loads more photos once you scoll to the bottom of the page. A user can like, and share photos."
+      "title": "Solaroid",
+      "description": "Solaroid is an 'Instagramish' photo sharing site using the NASA API. Built over a weekend for a coding competition. Implemented an infinite scrolling feature, which dynamically loads more photos once you scroll to the bottom of the page. A user can like, and share photos."
     },
     "jamiekaram.dev": {
       "title": "jamiekaram.dev",
-      "description": "Version 2 of my personal website. This was a great oppertunity to further develop my UI and Figma expierince."
+      "description": "Version 2 of my personal website. This was a great opportunity to further develop my UI and Figma experience."
     },
-    "beverage-genetics-coffee-matcher": {
+    "Beverage Genetics Flavour Profile": {
       "title": "Beverage Genetics Flavour Profile",
-      "description": "Beverage Genetics recommends coffee flavor's based on a customers flavour profile. I designed and developed an easy to use survey that can be modified easily by the owner."
+      "description": "Beverage Genetics recommends coffee flavours based on a customer's flavour profile. I designed and developed an easy to use survey that can be easily modified by the owner."
     },
-    "instagram-scraper": {
+    "Instagram Scraper": {
       "title": "Instagram Scraper",
       "description": "Scrape 'likes' and other pertinent information. Create a model with the data and calculate the optimal time to post on Instagram and maximize likes."
     },
-    "how-old-were-they": {
+    "How Old Were They?": {
       "title": "How Old Were They?",
       "description": "Find out the age of an actor during the making of a movie they are in. This was my first project outside of Bootcamp. I am definetly going to revisit and add more features."
     }

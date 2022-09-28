@@ -2,12 +2,15 @@ import { badgeColours } from "../../components/constants";
 import { useTranslation, Trans } from "next-i18next";
 import React from "react";
 import Span from "./Span";
+import Contact from "./Contact";
 
 export default function Hero() {
   const { t } = useTranslation();
   return (
     <section className="p-4">
-      <h1 className="my-8 text-4xl font-bold font-nunito">{t("hero.hi")}</h1>
+      <div className="flex justify-between text-4xl">
+        <h1 className="my-8 font-bold font-nunito">{t("hero.hi")}</h1>
+      </div>
       <p className="text-2xl md:leading-10 md:text-3xl">
         <Trans i18nKey="hero.description.0">
           I&apos;m currently looking for new opportunities. Located in Ottawa, Canada. Thank you for checking out my
@@ -34,27 +37,6 @@ export default function Hero() {
           i18nKey="hero.description.2"
           components={[
             <a
-              key="1"
-              href="https://www.dropbox.com/s/vkkblcxjhkn7x5g/Jamie_Karam_Resume.pdf?dl=0"
-              target="_blank"
-              rel="noreferrer"
-              className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
-            />,
-            <a
-              key="2"
-              href="https://github.com/JKaram"
-              target="_blank"
-              rel="noreferrer"
-              className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
-            />,
-            <a
-              key="3"
-              className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
-              href="https://www.linkedin.com/in/jamiekaram/"
-              rel="noreferrer"
-              target="_blank"
-            />,
-            <a
               key="4"
               className="underline cursor-pointer hover:text-indigo-900 dark:hover:text-red-100"
               href="mailto:hello@jamiekaram.dev"
@@ -66,6 +48,7 @@ export default function Hero() {
           Please checkout my <a>Resume</a> and <a>GitHub</a>. You can reach out on <a>LinkedIn</a> or{" "}
           <a>hello@jamiekaram.dev</a>.
         </Trans>
+        <Contact className="flex justify-center mt-10 space-x-8 text-5xl" />
       </p>
     </section>
   );

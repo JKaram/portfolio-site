@@ -18,8 +18,8 @@ module.exports = {
       black: {
         DEFAULT: "#303030"
       },
-      typescript: {
-        DEFAULT: "#2f74c0"
+      linkedIn: {
+        DEFAULT: "#0e76a8"
       },
       ...colors
     },
