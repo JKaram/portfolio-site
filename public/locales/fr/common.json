@@ -5,34 +5,34 @@
     "github": "GitHub"
   },
   "hero": {
-    "hi": "Salut, je m'appelle Jamie 👋",
+    "hi": "Salut, Je suis Jamie 👋",
     "description": [
-      "Je suis présentement à la recherche des nouvelles possibilités d'emplois. Situé à Ottawa, Ontario, Canada. Merci avoir consulté mon site. C'est là où je publie des projets parallèles.",
-      "Je spécialise en développement front-end. J'ai une compétence profonde avec <0>JavaScript</0> <1>TypeScrip</1>, et <3>React</3>. Je suis également intéressé par la Data Visualisation et la Data Science. Mon expérience de travail antécédent compris d’une carrière de caméraman pour les nouvelles locales (CTV). Pendant mon temps libre, je travaille sur des projets, je cours, je nage et je fais de la photographie alimentaire.",
-      "Vous pouvez me contacter à <0>hello@jamiekaram.dev</0>."
+      "Je suis actuellement à la recherche de nouvelles opportunités. Situé à Ottawa, Canada. Merci d'avoir consulté mon site. C'est là que je poste des projets parallèles.",
+      "Je me concentre sur le développement front-end. J'aime <0>JavaScript</0>, <1>TypeScript</1>, et <2>React</2>. Je suis également intéressé par la Data Visualisation et la Data Science. Dans ma vie passée, j'ai travaillé à la télévision en tant que caméraman. Pendant mon temps libre, je travaille sur des projets, je cours, je nage et je fais de la photographie.",
+      "S'il vous plaît regardez mon <0>CV</0> et <1>GitHub</1>. Vous pouvez me contacter sur <0>LinkedIn</0>, ou <0>hello@jamiekaram.dev</0>."
     ]
   },
   "projects": {
     "title": "Projets",
-    "Solaroid": {
-      "title": "Solaroid",
-      "description": "Solaroid est un 'Instagramish'; site de partage de photos en utilisant API de la NASA. Créer pendant une fin de semaine pour un concours de code. L’implémentation d'une fonction de défilement infini, qui dynamiquement télécharge plus de photos une fois que vous faites défiler vers le bas de la page. Un utilisateur peut faire des « likes » et partager des photos."
+    "soloroid": {
+      "title": "Soloroid",
+      "description": "Solaroid is an 'Instagramish' photo sharing site using the NASA API. Built over a weekend for a code competition. Implemented an infinite scrolling feature, which dynamically loads more photos once you scoll to the bottom of the page. A user can like, and share photos."
     },
     "jamiekaram.dev": {
       "title": "jamiekaram.dev",
-      "description": "La deuxième version de mon site web personnel. C’était une excellente occasion d’agrandir mon expérience en matière d'interface utilisateur et Figma."
+      "description": "Version 2 of my personal website. This was a great oppertunity to further develop my UI and Figma expierince."
     },
-    "Beverage Genetics Flavour Profile": {
-      "title": "Profil de saveur Breuvage génétique",
-      "description": "Breuvage génétique suggère les saveurs du café en fonctions des génétiques expriment par les profils des clients. J’ai conçu et développé un sondage facile à distribuer et modifier par l’usager."
+    "beverage-genetics-coffee-matcher": {
+      "title": "Beverage Genetics Flavour Profile",
+      "description": "Beverage Genetics recommends coffee flavor's based on a customers flavour profile. I designed and developed an easy to use survey that can be modified easily by the owner."
     },
-    "Instagram Scraper": {
+    "instagram-scraper": {
       "title": "Instagram Scraper",
-      "description": "Scrape \"likes\" et d’autres informations pertinentes. Créer un modèle avec les données pour calculer le meilleur moment d’afficher les photographes et « likes » en ligne."
+      "description": "Scrape 'likes' and other pertinent information. Create a model with the data and calculate the optimal time to post on Instagram and maximize likes."
     },
-    "How Old Were They?": {
-      "title": "Quel âge aviez-vous?",
-      "description": "Découvrez l’âge de l’acteur pendant la réalisation d’une de ses films connus. C’était mon premier projet après mon cours intensif du développement web « Bootcamp. Je vais réviser le projet et travailler sur les mises à jour des fonctionnalités."
+    "how-old-were-they": {
+      "title": "How Old Were They?",
+      "description": "Find out the age of an actor during the making of a movie they are in. This was my first project outside of Bootcamp. I am definetly going to revisit and add more features."
     }
   }
 }
