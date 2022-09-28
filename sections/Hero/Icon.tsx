@@ -18,7 +18,6 @@ export default function Icon(props: Props) {
       {icon === "gitHub" && <AiFillGithub />}
       {icon === "linkedIn" && <AiFillLinkedin className="hover:text-linkedIn" />}
       {icon === "resume" && <BsFillFileEarmarkPersonFill />}
-      <span className="text-sm">resume</span>
     </a>
   );
 }
