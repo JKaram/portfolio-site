@@ -10,10 +10,10 @@ export default function ProjectCard(props: any) {
   const formatedDate = format(date, "MMMM y", { locale: locale === "fr" ? fr : enCA });
   return (
     <div
-      style={{ background: color }}
-      className="flex flex-col my-5 overflow-hidden text-white rounded md:flex-row md:h-64 "
+      style={{ background: color, minHeight: "16rem" }}
+      className="relative flex flex-col my-5 overflow-hidden text-white rounded md:flex-row"
     >
-      <div className="relative h-40 overflow-hidden md:w-full md:h-full ">
+      <div className="relative h-40 md:h-auto md:w-full ">
         <a href={link} target="_blank" rel="noreferrer">
           <div
             style={{
