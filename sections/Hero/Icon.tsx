@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub, AiFillFilePdf } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
 
 const icons = ["linkedIn", "gitHub", "resume"] as const;
@@ -25,7 +25,7 @@ export default function Icon(props: Props) {
       {icon === "gitHub" && <AiFillGithub className="" />}
       {icon === "linkedIn" && <AiFillLinkedin className="hover:text-linkedIn" />}
       {icon === "resume" && <BsFillFileEarmarkPersonFill />}
-      <span className="p-2 text-sm font-nunito">{label}</span>
+      <span className="p-2 text-lg font-nunito">{label}</span>
     </a>
   );
 }

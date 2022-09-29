@@ -48,7 +48,7 @@ export default function Hero() {
           Please checkout my <a>Resume</a> and <a>GitHub</a>. You can reach out on <a>LinkedIn</a> or{" "}
           <a>hello@jamiekaram.dev</a>.
         </Trans>
-        <Contact className="flex justify-center mt-10 space-x-8 text-5xl" />
+        <Contact className="flex justify-center mt-12 space-x-12 text-6xl md:text-7xl" />
       </p>
     </section>
   );
