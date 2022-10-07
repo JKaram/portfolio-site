@@ -1,10 +1,21 @@
-import howoldwerethey from "../../public/Portfolio/howoldwerethey.png";
 import beveragegenetics from "../../public/Portfolio/beveragegenetics.png";
+import howoldwerethey from "../../public/Portfolio/howoldwerethey.png";
 import instagram from "../../public/Portfolio/instagram.jpg";
-import solaroid from "../../public/Portfolio/solaroid.png";
+import shatzen from "../../public/Portfolio/shatzen.png";
 import site from "../../public/Portfolio/site.jpg";
+import solaroid from "../../public/Portfolio/solaroid.png";
 
 export const portfolioProjects = [
+  {
+    title: "Shatzen",
+    color: "#FF5B5B",
+    link: "https://shatzen.jamiekaram.dev",
+    img: shatzen,
+    description:
+      "Scrum poker app. Built as an alternative for Hajistsu, which would frequently lose connection. Create a room, enter a name and start estimating!",
+    technologies: ["React", "tailwindcss", "Web Sockets"],
+    date: new Date(2022, 9),
+  },
   {
     title: "Solaroid",
     color: "#2C113A",
@@ -35,16 +46,16 @@ export const portfolioProjects = [
     technologies: ["React", "tailwindcss", "Redux", "Next.js", "TypeScript"],
     date: new Date(2021, 6),
   },
-  {
-    title: "Instagram Scraper",
-    img: instagram,
-    color: "#5851db",
-    link: "https://github.com/JKaram/instagram-data",
-    description:
-      'Scrape "likes" and other pertinent information. Create a model with the data and calculate the optimal time to post on Instagram and maximize likes.',
-    technologies: ["Python", "Selenium", "Beautiful Soup"],
-    date: new Date(2020, 11),
-  },
+  // {
+  //   title: "Instagram Scraper",
+  //   img: instagram,
+  //   color: "#5851db",
+  //   link: "https://github.com/JKaram/instagram-data",
+  //   description:
+  //     'Scrape "likes" and other pertinent information. Create a model with the data and calculate the optimal time to post on Instagram and maximize likes.',
+  //   technologies: ["Python", "Selenium", "Beautiful Soup"],
+  //   date: new Date(2020, 11),
+  // },
   {
     title: "How Old Were They?",
     img: howoldwerethey,

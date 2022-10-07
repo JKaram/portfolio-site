@@ -17,6 +17,10 @@
   },
   "projects": {
     "title": "Projects",
+    "Shatzen": {
+      "title": "Shatzen",
+      "description": "Scrum poker app. Built as an alternative for Hajistsu, which would frequently lose connection."
+    },
     "Solaroid": {
       "title": "Solaroid",
       "description": "Solaroid is an 'Instagramish' photo sharing site using the NASA API. Built over a weekend for a coding competition. Implemented an infinite scrolling feature, which dynamically loads more photos once you scroll to the bottom of the page. A user can like, and share photos."
