@@ -14,28 +14,5 @@
       "Je spécialise en développement front-end. J'ai une compétence profonde avec <0>JavaScript</0>, <1>TypeScript</1>, et <2>React</2>. Je suis également intéressé par la Data Visualisation et la Data Science. Mon expérience de travail antécédent compris d’une carrière de caméraman pour les nouvelles locales (CTV). Pendant mon temps libre, je travaille sur des projets, je cours, je nage et je fais de la photographie alimentaire.",
       "Vous pouvez me contacter à <0>hello@jamiekaram.dev</0>."
     ]
-  },
-  "projects": {
-    "title": "Projets",
-    "Solaroid": {
-      "title": "Solaroid",
-      "description": "Solaroid est un 'Instagramish'; site de partage de photos en utilisant API de la NASA. Créer pendant une fin de semaine pour un concours de code. L’implémentation d'une fonction de défilement infini, qui dynamiquement télécharge plus de photos une fois que vous faites défiler vers le bas de la page. Un utilisateur peut faire des « likes » et partager des photos."
-    },
-    "jamiekaram.dev": {
-      "title": "jamiekaram.dev",
-      "description": "La deuxième version de mon site web personnel. C’était une excellente occasion d’agrandir mon expérience en matière d'interface utilisateur et Figma."
-    },
-    "Beverage Genetics Flavour Profile": {
-      "title": "Profil de saveur Breuvage génétique",
-      "description": "Breuvage génétique suggère les saveurs du café en fonctions des génétiques expriment par les profils des clients. J’ai conçu et développé un sondage facile à distribuer et modifier par l’usager."
-    },
-    "Instagram Scraper": {
-      "title": "Instagram Scraper",
-      "description": "Scrape \"likes\" et d’autres informations pertinentes. Créer un modèle avec les données pour calculer le meilleur moment d’afficher les photographes et « likes » en ligne."
-    },
-    "How Old Were They?": {
-      "title": "Quel âge aviez-vous?",
-      "description": "Découvrez l’âge de l’acteur pendant la réalisation d’une de ses films connus. C’était mon premier projet après mon cours intensif du développement web « Bootcamp. Je vais réviser le projet et travailler sur les mises à jour des fonctionnalités."
-    }
   }
 }
