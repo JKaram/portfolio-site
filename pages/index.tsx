@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Nav from "../sections/Nav/Nav";
-import Hero from "../sections/Hero/Hero";
-import Portfolio from "../sections/Portfolio/Portfolio";
+
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import Nav from "../components/Nav/Nav";
+import Hero from "../components/Hero/Hero";
+import Portfolio from "../components/Portfolio/Portfolio";
 
 const Home: NextPage = () => {
   return (

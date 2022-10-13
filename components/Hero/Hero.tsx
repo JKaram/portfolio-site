@@ -1,4 +1,4 @@
-import { badgeColours } from "../../components/constants";
+import { badgeColours } from "../constants";
 import { useTranslation, Trans } from "next-i18next";
 import React from "react";
 import Span from "./Span";

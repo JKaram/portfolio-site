@@ -6,7 +6,7 @@ import figma from "../../public/posts/shatzen-figma.png";
 import Image from "next/image";
 function Post() {
   return (
-    <div>
+    <article className="post">
       <h1>Shatzen</h1>
       <div>WebSockets, React, Next.JS, Tailwind</div>
 
@@ -18,9 +18,6 @@ function Post() {
         My old scrum team would rely on <a href="https://hatjitsu.toolforge.org/">hatjitsu</a> for estimating stories,
         but it was would lose connection quite often. So I took the oppertunity to create a new one using websockets.
       </blockquote>
-
-      <Image src={mvp} alt="rough app design on graph paper" />
-      <Image src={figma} alt="figma screenshot" />
 
       <h2>MVP</h2>
       <ul>
@@ -35,13 +32,16 @@ function Post() {
         what to it will look like. Its simple but for the MVP it works.
       </div>
 
+      <Image src={mvp} alt="rough app design on graph paper" />
+      <Image src={figma} alt="figma screenshot" />
+
       <h2>Web Sockets</h2>
       <div>
         Teams estimate in real time, so websockets are a must. This was my first time diving in. I really enjoyed the
         Socket.IO API. It took some trial and error firguring out what should the server and client should handle. For
-        the most part the server stores a room object with the room status <code>"estimating" | "revealing"</code> and
-        name. And the user object which has the name, colour, room and estimate. Socket.IO handles the connection and
-        knows which sockets are in each room but its up to the developer to store everything else.
+        the most part the server stores a room object with the room status <code>estimating | revealing</code> and name.
+        And the user object which has the name, colour, room and estimate. Socket.IO handles the connection and knows
+        which sockets are in each room but its up to the developer to store everything else.
       </div>
 
       <h2>Client</h2>
@@ -68,7 +68,7 @@ function Post() {
           <li></li>
         </ul>
       </div>
-    </div>
+    </article>
   );
 }
 
