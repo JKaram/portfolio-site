@@ -27,10 +27,10 @@ function Post() {
       </ul>
 
       <h2>Designing the app</h2>
-      <div>
+      <p>
         Starting with a sketch, and transfering into Figma. I do not like to write any code until I have a solid idea of
         what to it will look like. Its simple but for the MVP it works.
-      </div>
+      </p>
 
       <Image src={mvp} alt="rough app design on graph paper" />
       <Image src={figma} alt="figma screenshot" />
